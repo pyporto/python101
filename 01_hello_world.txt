@@ -1,0 +1,31 @@
+Hints
+====
+
+- Functions are defined with def
+- Curly braces are not used. Instead, used colons and indentations
+- print instead of printf, and it automatically adds a newline
+- Main function can have any name, but it has to be called explicitly
+- Use can use single or double quotes to wrap strings. It's equal
+- How run the code: python 01_hello_world.py
+
+Playing with the code
+=====================
+
+Let's modify and run the script
+
+- Let's remove indentation and see what happens
+- Let's remove colon to see what happens
+- Convert this to one-liner print('Hello world')
+
+Show REPL
+=========
+
+- REPL stands for "read-eval-print-loop"
+- python without arguments opens a REPL console which is convenient
+  to experiment
+- Run the same "Hello world" right from the REPL
+
+What to ignore
+==============
+
+- The if __name__ == '__main__' syntax

@@ -1,0 +1,36 @@
+New stuff: lists, sets, input, for-loops
+
+
+Hints
+=====
+
+- For the first time in our life we initialized a variable. Note that we don't
+  set the variable type, it's defined on the fly at the moment of the assignment
+- This variable happens to be an empty list.
+- Lists are like arrays, but you don't have to worry about memory
+  allocation. They're extended dynamically.
+- for-loops in Python look much more natural, than in C.
+- range(N) is a special function which generates sequential numbers, by default
+  from 0 with step 1
+- There is a built-in function input() to take user input
+- You can pass any object to print(). It's convenient for debugging
+
+
+Playing with the code
+=====================
+
+- Show how to initialize non-empty list: things = ['foo', 'bar']
+- Try to replace list with set and see what's common and what's different:
+  - unique values
+  - order is not preserved
+  - add instead append
+  - you still can iterate
+
+
+Documentation
+=============
+
+- Input: https://docs.python.org/3/library/functions.html#input
+- Lists: https://docs.python.org/3/library/stdtypes.html#list
+- Sets: https://docs.python.org/3/library/stdtypes.html#set-types-set-frozenset
+- If statement: https://docs.python.org/3/tutorial/controlflow.html#if-statements

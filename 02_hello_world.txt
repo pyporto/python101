@@ -1,0 +1,25 @@
+Hints
+=====
+
+- No parentheses around if-expressions needed
+- If-expressions are formatted with colon and indentation too
+- There is a special elif keyword
+- There is no switch/case syntax
+- sys.argv is a Python list. It's like C array, but easier to use
+
+On imports
+==========
+
+- For the first time we imported an external module "sys". Python is known
+  as coming with "batteries included". Sys in particular gives access to
+  command line arguments
+- Calling module functions and arguments semantic is close to calling
+  object methods or attributes. Module provides a namespace
+
+On string formatting
+====================
+
+- There are multiple ways to format python strings. Here we use a format
+  method of the string object
+- Yeah, string is an object. This object has methods which you can call
+- For more info on string formatting https://pyformat.info/
