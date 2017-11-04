@@ -1,0 +1,28 @@
+Code explanation
+================
+
+- We have to install Flask first with "pip install flask"
+- Notice how dependencies are also installed
+- app is created outside of any function. Object will be created
+  once on the first input, or when we call this file for execition
+- That @app.route thing is called a decorator
+- In this particular case decorator shows which function will be called
+  in response to opening this or that URL
+- Flask uses angle-brackets to parametrize URLs. The parameter goes to
+  the function as its input parameter
+- Application has a method .run() to start the development webserver
+
+Code run
+========
+
+- Run the app to see the prompt
+- Open the browser to see how it works
+- Check for CSRF exception on http://127.0.0.1:5000/user/%3Ch1%3ERoman
+- See the logs
+- Ctrl+C to stop the script
+
+
+Documentation
+=============
+
+- Flask documentation: http://flask.pocoo.org/docs/

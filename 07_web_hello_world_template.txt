@@ -1,0 +1,36 @@
+Code explanation
+================
+
+- There are two more things Flask can do for you: serve static files and render templates
+- Everything you put to "static" will be available at http://127.0.0.1:5000/static/.
+  Check out http://127.0.0.1:5000/static/background.jpg
+- HTML-files, put to templates can be used as so-called "jinja-templates".
+- Jinja templates look like regular HTML files, but inclusions like {{ var }}
+  or {% for i in something %}...{% endfor %} interpreted on the server
+  side on the fly
+- There is a bolierplate code in splash.html and styles.css to show
+  "inspiring splash thing"
+- flask.render_template('splash.html', text=text) does the trick
+
+
+Code run
+========
+
+Try these URLs:
+
+- http://127.0.0.1:5000
+- http://127.0.0.1:5000/user/Roman
+- http://127.0.0.1:5000/user/%3Ch1%3ERoman
+
+You can see how render_template works if you run a special
+"flask-activated" shell with:
+
+$ FLASK_APP=07_web_hello_world_template.py flask shell
+>>> import flask
+>>> flask.render_template('splash.html', text='Hello world')
+
+
+Documentation
+===================
+
+- Jinja documentation: http://jinja.pocoo.org/docs/
