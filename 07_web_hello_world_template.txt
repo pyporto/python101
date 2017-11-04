@@ -34,3 +34,15 @@ Documentation
 ===================
 
 - Jinja documentation: http://jinja.pocoo.org/docs/
+
+
+Practical task
+==============
+
+Modify the Hello World example to show some random quotes of wisdom instead.
+
+- http://127.0.0.1:5000 has to show one randomly chosen quote from quotes.txt
+  or quotes.csv
+- http://127.0.0.1:5000/<quote_id> has to show the quote with the given id
+  from quotes.csv. If nothing is found, it has to show the text
+  "nothing is found"
